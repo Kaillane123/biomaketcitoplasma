@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
+  <title>teste</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header sticky-top" id="header">
+    <div class="cabecalho">
+      <nav class="navbar navbar-light" style="background-color: #386641; ">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="color: #f2e8cf;" href="#">Citoplasma</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Citoplasma</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Organelas
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#mitocondrias">Mitocôndrias</a></li>
+                    <li><a class="dropdown-item" href="#reticulos">Retículo Endoplasmático</a></li>
+                    <li><a class="dropdown-item" href="#aparelhoGolgi">Aparelho de Golgi</a></li>
+                    <li><a class="dropdown-item" href="#centriolos">Centríolos</a></li>
+                    <li><a class="dropdown-item" href="#lisossomos">Lisossomos</a></li>
+                    <li><a class="dropdown-item" href="#filamentosA">Filamentos de actina</a></li>
+                    <li><a class="dropdown-item" href="#filamentosI">Filamentos intermediários</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#conteudo-motorCelular">Motor Celular</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#conteudo-citoEsqueleto">Citoesqueleto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#conteudo-celula">Célula</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#video">Resumo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="hero">
+    <section class="conteudo-inicial">
+      <div class="titulo-principal">
+        <h1>CITOPLASMA</h1>
+        <p> O citoplasma é uma região da célula localizada entre o núcleo e a membrana plasmática.
+          Ele é composto por um líquido viscoso e transparente chamado de citosol. O citoplasma é composto por todas as
+          organelas intracelulares e o citosol.
+        </p>
+      </div>
+    </section>
+    <section class="introducao">
+      <div class="imagem-introducao">
+        <img src="imagens/imagemPrincipal.png" alt="imagem">
+      </div>
+    </section>
+  </main>
+  <div class="conteudo-secundario">
+    <div class="subtitulo">
+      <h2>Características da Citoplasma</h2>
+    </div>
+    <div class="conteudo-texto">
+      <h4>
+        A citoplasmática é constituída de várias substâncias, como aminoácidos, proteínas, nutrientes, íons e água,
+        assim compondo cerca de 80% dessa solução.
+        <br>A presença de água é fundamental para a realização de reações químicas necessárias para a célula.
+      </h4>
+    </div>
+  </div>
+  <div class="titulo-secundario">
+    <h2>Organelas que formam a citoplasma<br></h2>
+  </div>
+  <div class="conteudo-textos">
+    <div id="mitocondrias">
+        <h3>Mitocôndrias</h3>
+        <p>
+          São organelas compostas por membrana dupla, sendo uma externa e uma interna que apresenta muitas dobras, as
+          chamadas cristas mitocondriais. As mitocôndrias apresentam pequenas moléculas de DNA, que se apresentam como
+          filamentos duplos e circulares, carregando alguns genes que são transmitidos para as organelas filhas após a
+          sua
+          reprodução (fissão)
+
+        </p>
+        <p>
+          Sua função é realizar a respiração celular, que produz a maior parte da energia utilizada nas funções vitais.
+          A
+          primeira etapa acontece no citosol da célula e as duas últimas nas suas membranas internas.
+        </p>
+        <p>
+          <img src="./imagens/mitocondrias.jpg">
+        </p>
+    </div>
+    <div id="reticulos">
+        <h3>Retículo Endoplasmático</h3>
+        <p>
+          São organelas com membranas dobradas, similares a sacos achatados. São dois os retículos, o retículo
+          endoplasmático rugoso e o liso.
+        </p>
+        <p>
+          A função principal do retículo endoplasmático rugoso (RER) é realizar a síntese e ativação das proteínas, além
+          de transportar para outras partes da célula. Já o retículo endoplasmático liso tem a função de participar da
+          produção de lipídios (gordura), especialmente os fosfolipídios, que compõem a membrana plasmática.
+        </p>
+        <p>
+          <img src="./imagens/reticulo-endoplasmático.jpg" alt="reticuloEndoplasmatico">
+        </p>
+    </div>
+    <div id="aparelhoGolgi">
+        <h3>Aparelho de Golgi</h3>
+        <p>
+          Também chamado complexo de Golgi ou ainda complexo golgiense, é composto de discos achatados empilhados,
+          formando bolsas membranosas.
+        </p>
+        <p>
+          Suas funções são transformar, armazenar e exportar proteínas sintetizadas no RER.
+        </p>
+        <p>
+          <img src="./imagens/golgi.jpg" alt="golgi">
+        </p>
+        </p>
+    </div>
+    <div id="lisossomos">
+        <h3>Lisossomos</h3>
+        <p>
+          Os lisossomos são envolvidos apenas pela bicamada lipídica e no seu interior há enzimas digestivas.
+        </p>
+        <p>
+          Sua função é digerir moléculas orgânicas como lipídios, carboidratos, proteínas e ácidos nucleicos (DNA e
+          RNA).
+        </p>
+        <p>
+          <img src="./imagens/lisossomo.jpg" alt="lisossomos">
+        </p>
+        </p>
+    </div>
+    <div id="ribossomos">
+        <h3>Ribossomos</h3>
+        <p>
+          São organelas celulares não membranosas presentes nas células procarióticas e eucarióticas.
+        </p>
+        <p>
+          Eles atuam principalmente na regeneração celular, controle metabólico e produção de proteínas.
+        </p>
+        <p>
+          <img src="./imagens/ribossomos.avif" alt="ribossomos">
+        </p>
+    </div>
+    <div id="centriolos">
+        <h3>Centríolos</h3>
+        <p>
+          São organelas com estrutura cilíndrica encontradas nas células eucarióticas.<br>Eles participam da divisão
+          celular pela capacidade de duplicação quando ocorre a mitose e meiose, migrando para os pólos da célula após a
+          duplicação
+        </p>
+        <p>
+          São responsáveis pela formação dos cílios e flagelos e pela organização do fuso acromático durante a divisão
+          celular.
+        </p>
+        <p>
+          <br><img src="./imagens/Centríolos.png" alt="centriolos">"
+        </p>
+    </div>
+    <div id="filamentosA">
+        <h3>Filamentos de actina</h3>
+        <p>
+          Também chamados de microfilamentos, são constituídos por actina, formando espirais que medem cerca de 7 nm de
+          diâmetro.
+        </p>
+        <p>
+          Dentre as funções desses filamentos, destacamos a manutenção, bem como a alteração da forma da célula,
+          movimentação da célula (movimento amebóide) e, no citoplasma (células vegetais), contração e divisão celular.
+        </p>
+        <p>
+          <img src="./imagens/filamentos de actina.jpg" </p>
+    </div>
+    <div id="filamentosI">
+        <h3>Filamentos intermediários</h3>
+        <p>Medindo entre 8 nm e 12 nm de diâmetro, são constituídos por mais de 50 tipos diferentes de proteínas, como a
+          queratina e a desmina.
+        </p>
+        <p>
+          Estão relacionados com a manutenção da forma da célula, formação da lâmina nuclear (reveste a membrana nuclear
+          internamente e ancoram cromossomos e poros nucleares) e ancoragem de diversas organelas no citoplasma da
+          célula.
+        </p>
+        <p>
+          <img src="./imagens/filamentosintermediarios.jpg">
+        </p>
+    </div>
+  </div>
+  <div class="conteudo-motorCelular" id="conteudo-motorCelular">
+    <div class="conteudo-texto">
+      <h2>Motor Celular</h2>
+      <p>
+        Qualquer tipo de movimento do corpo, dos músculos dos braços aos neurônios que transportam esses sinais para o
+        cérebro,<br>depende de um grande conjunto de proteínas que são chamadas de “motores moleculares”.
+
+        Fundamentalmente, motores moleculares são proteínas<br> que convertem energia química em movimento mecânico e
+        têm funções diferentes, dependendo de sua tarefa. No entanto, por serem muito pequenas,<br>os mecanismos exatos
+        de como essas moléculas se coordenam são pouco conhecidos.
+      </p>
+    </div>
+    <div class="conteudo-imagem">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-block w-100">
+              <img src="./imagens/O motor celular (cinesina) .png" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-100">
+              <img src="./imagens/cinesia.jfif" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-100">
+              <img src="./imagens/Vendo a Felicidade.gif" alt="..." />
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="conteudo-citoEsqueleto" id="conteudo-citoEsqueleto">
+      <div class="conteudo-texto">
+        <h2>Citoesqueleto</h2>
+        <p>
+          O citoesqueleto é uma rede de fibras presente no citoplasma das células. Nas células eucarióticas, o
+          citoesqueleto é constituído por microtúbulos, filamentos de actina e filamentos intermediários. Em células
+          procarióticas, pode ser observada uma rede de fibras que se assemelha ao citoesqueleto das células
+          eucarióticas.
+        <p>
+          O citoesqueleto apresenta inúmeras funções dentro da célula, tais como:
+          Manutenção da forma da célula, principalmente em células que não apresentam parede celular (células animais),
+          suporte mecânico da célula, manipulação da membrana, como na formação de vacúolos alimentares,movimento da
+          célula (movimento amebóide), formação de cílios e flagelos, formação do fuso mitótico, movimento de organelas
+          e vesículas no interior da célula.
+        </p>
+      </div>
+      <div class="conteudo-imagem">
+        <div id="carouselExampleIndicators2" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-block w-100">
+                <img src="./imagens/citoesqueleto1 (1).png" class="d-block" alt="...">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-block w-100">
+                <img src="./imagens/citoesqueleto2.png" class="d-block" alt="...">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./imagens/citoesqueleto3.png" class="d-block" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="conteudo-celula" id="conteudo-celula">
+        <h3>Célula</h3>
+        </h3>
+        <div class="conteudo-procariontes conteudo-textos">
+          <div>
+            <h3>Citoplasma das células procariontes</h3>
+            <p>O citoplasma da célula procarionte, uma célula que não possui núcleo, corresponde a toda a região
+              delimitada pela membrana plasmática. Ele é formado pelo citosol e contém o DNA e vários ribossomos,
+              organelas relacionadas com a síntese de proteínas. No citoplasma dessas células, não é possível encontrar
+              organelas membranosas, como retículo endoplasmático e complexo golgiense.
+            </p>
+          </div>
+          <div>
+            <div class="conteudo-texto">
+              <h3>Citoplasma das células eucariontes
+              </h3>
+              <p>
+                O citoplasma de uma célula eucarionte, por sua vez, é muito mais complexo. Ele pode ser definido como a
+                região localizada entre a membrana plasmática e a membrana que envolve o núcleo. A constituição do
+                citosol
+                é semelhante à das células procariontes.
+              </p>
+              <p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="video" id="video">
+    <h3>Resumindo...</h3>
+    <iframe src="https://www.youtube.com/embed/rQdqW0MkfBY?si=Rd_I9qtgRSp9pUqz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <footer>
+    <img src="./imagens/logoIFRN.png" alt="Logo do IFRN" width="80px" height="80px">
+    <h6>
+      2023-Projeto Integrador
+    </h6>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+</html>
